@@ -48,9 +48,10 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Homepage</a></li>
-                      <li><a>Portfolio</a></li>
-                      <li><a>About</a></li>
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruts</a></li>
                     </ul>
                   </div>
                   <div class="pl-10 text-white">
@@ -135,9 +136,11 @@
     <!-- Main Section Start From Here -->
 
     <main class="container mx-auto">
+
+      <!-- Deal of The Day Section Start From Here -->
       <section class="mt-36">
         <div>
-          <div class="flex justify-between items-center">
+          <div class="flex flex-col justify-center text-center gap-6 lg:flex-row lg:justify-between items-center lg:gap-0">
             <div class="max-w-xl">
               <h1 class="text-5xl font-extrabold">Deal of the day</h1>
               <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -164,7 +167,7 @@
 
           <!-- Card Container Section -->
 
-          <div class="mt-12 grid gap-6 grid-cols-1 md: grid-cols-2 lg: grid-cols-4">
+          <div class="mt-12 mb-12 grid gap-6 grid-cols-1 justify-center md:grid-cols-2 lg:grid-cols-4">
 
             <!-- 1st card -->
             
@@ -173,7 +176,7 @@
                 <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-primary-text-color font-bold pb-6 border-b-2">12.90$ - 18.85$</h2>
+                <h2 class="text-primary-text-color font-bold pb-6 border-b-2 max-">12.90$ - 18.85$</h2>
                 <p class=" mt-4 mb-6">Apples</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
                   <path d="M45.8529 0L50.4018 7.00591L58.4705 9.16716L53.2131 15.6584L53.651 24L45.8529 21.0059L38.0549 24L38.4927 15.6584L33.2354 9.16716L41.3041 7.00591L45.8529 0Z" fill="#F85559"/>
@@ -249,6 +252,9 @@
                   <p class="text-primary-bg-color text-xl font-bold mt-8 pb-4">Details</p>
               </div>
             </div>
+          </div>
+          <div class="text-center">
+            <button class="btn bg-primary-bg-color border-none text-white">Shop Now</button>
           </div>
         </div>
       </section>
