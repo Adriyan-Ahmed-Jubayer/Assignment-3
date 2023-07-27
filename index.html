@@ -40,8 +40,8 @@
 </head>
 <body class="roboto">
     <header class="container mx-auto">
-        <section class="mt-8">
-            <div class="navbar bg-primary-bg-color rounded-full px-5 py-5">
+        <section class="mt-4 lg:mt-8">
+            <div class="navbar flex-row-reverse lg:flex-row lg:bg-primary-bg-color rounded-full px-5 py-5">
                 <div class="navbar-start">
                   <div class="dropdown lg:hidden">
                     <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -54,7 +54,7 @@
                       <li><a>All Fruts</a></li>
                     </ul>
                   </div>
-                  <div class="pl-10 text-white">
+                  <div class="pl-10 text-white hidden sm:block">
                     <ul class="flex gap-8">
                         <li><a href="">Home</a></li>
                         <li><a href="">About Us</a></li>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="navbar-end pr-5">
                   <form>
-                    <input type="text" placeholder="Search here" class="p-3 rounded-full px-10 pr-10">
+                    <input type="text" placeholder="Search here" class="p-3 rounded-full px-10 pr-10 hidden sm:block">
                   </form>
                 </div>
               </div>
@@ -131,6 +131,33 @@
                 </div>
               </div>
         </section>
+
+         <!-- Fruit Section Start From Here  -->
+
+      <section class="hidden md:block sm:block">
+        <div class="lg:max-w-[1200px] flex justify-between items-center mx-auto bg-white drop-shadow-lg py-14 px-16 rounded-xl relative bottom-32">
+          <div class="text-center">
+            <img src="images/fruit1.png" alt="">
+            <p class="font-medium text-xl">Grape</p>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit2.png" alt="">
+            <p class="font-medium text-xl">Orange</p>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit3.png" alt="">
+            <p class="font-medium text-xl">Mango</p>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit4.png" alt="">
+            <p class="font-medium text-xl">Strawberry</p>
+          </div>
+          <div class="text-center">
+            <img src="images/fruit5.png" alt="">
+            <p class="font-medium text-xl">Anar</p>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!-- Main Section Start From Here -->
@@ -138,7 +165,7 @@
     <main class="container mx-auto">
 
       <!-- Deal of The Day Section Start From Here -->
-      <section class="mt-36 mb-36">
+      <section class="mb-36">
         <div>
           <div class="flex flex-col justify-center text-center lg:text-left gap-6 lg:flex-row lg:justify-between items-center lg:gap-0">
             <div class="max-w-xl">
@@ -146,19 +173,19 @@
               <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div  class="flex justify-between items-center gap-5">
-              <div class="text-center">
+              <div class="text-center space-y-2">
                 <h1 class="text-primary-text-color text-5xl font-extrabold">29  :</h1>
-                <p>Days</p>
+                <p class="pr-8">Days</p>
               </div>
-              <div class="text-center">
+              <div class="text-center space-y-2">
                 <h1 class="text-primary-text-color text-5xl font-extrabold">15  :</h1>
-                <p>Hours</p>
+                <p class="pr-8">Hours</p>
               </div>
-              <div class="text-center">
+              <div class="text-center space-y-2">
                 <h1 class="text-primary-text-color text-5xl font-extrabold">25  :</h1>
-                <p>Minuted</p>
+                <p class="pr-8">Minuted</p>
               </div>
-              <div class="text-center">
+              <div class="text-center space-y-2">
                 <h1 class="text-primary-text-color text-5xl font-extrabold">08</h1>
                 <p>Seconds</p>
               </div>
@@ -268,7 +295,7 @@
             <div class="hero-content text-center text-neutral-content py-24">
                <div>
                 <div class="text-white space-y-5">
-                  <h1 class="text-5xl font-bold">Meet the team section</h1>
+                  <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">Meet the team section</h1>
                   <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                  </div>
                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12">
